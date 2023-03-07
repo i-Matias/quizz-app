@@ -20,11 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const response = await fetch(api_url);
       const data = await response.json();
-      console.log(data);
       quizData = data;
       submitBtn.addEventListener("click", () => {
         const answer = getSelected();
-        console.log(answer);
         if (answer && answer === quizData.results[index].correct_answer) {
           score++;
         }
