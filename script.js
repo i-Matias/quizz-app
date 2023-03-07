@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
           loadQuiz(quizData);
         } else {
           quiz.innerHTML = `
-                    <h2> You answer correctly at ${score}/${quizData.results.length} questions. </h2>
+                    <h2> You answered ${score}/${quizData.results.length} questions correctly. </h2>
                     <button onclick="location.reload()">Reload</button>
                 `;
         }
