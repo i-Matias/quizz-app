@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function randomlySwapEl(currQuestionIndex) {
-    const answers = currQuestionIndex.incorrect_answers;
+    let answers = currQuestionIndex.incorrect_answers;
     answers.push(currQuestionIndex.correct_answer);
     let firstRandom = Math.floor(Math.random() * answers.length);
     let secondRandom = Math.floor(Math.random() * answers.length);
