@@ -1,7 +1,5 @@
 # Quiz App
 
-![Quiz App](link-to-your-app-logo-or-screenshot.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
